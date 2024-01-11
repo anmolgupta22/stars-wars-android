@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/star_wars_graph"
+    app:startDestination="@id/starCharactersFragment">
+    <fragment
+        android:id="@+id/starCharactersFragment"
+        android:name="com.example.starwars.fragment.StarCharactersFragment"
+        android:label="StarCharactersFragment"
+        tools:layout="@layout/fragment_star_characters"/>
+</navigation>
